@@ -12,7 +12,8 @@ chnage that file name to .env and PUT YOUR TOKEN THERE
 
 # Prefix
 For Example I have Kept Prefix as ```$```
-# Chnage Prefx
+
+# Chnage Prefix
 Go to config.json 
 and Put you Prefix There 
 
