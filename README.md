@@ -10,9 +10,10 @@ npm install (To INstall Packages)
 Go to .env_sample 
 chnage that file name to .env and PUT YOUR TOKEN THERE
 
-# Change Token
-Go to config.json 
+# Prefix
 For Example I have Kept Prefix as ```$```
+# Chnage Prefx
+Go to config.json 
 and Put you Prefix There 
 
 # Ignoring Stuff
