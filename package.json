@@ -1,6 +1,6 @@
 {
   "name": "sample_bot",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Sample Bot to get started with",
   "main": "index.js",
   "scripts": {
@@ -10,13 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/Lugia-is-OP/Sample_Bot.git"
   },
-  "author": "",
+  "author": "Lugia-is-OP",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Lugia-is-OP/Sample_Bot/issues"
   },
   "homepage": "https://github.com/Lugia-is-OP/Sample_Bot#readme",
   "dependencies": {
-    "discord.js": "^12.5.3"
-  }
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {}
 }
