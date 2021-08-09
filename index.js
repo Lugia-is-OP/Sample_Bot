@@ -2,9 +2,18 @@
 require('dotenv').config()
 // ====================== START BOT CODE ========================
 const Discord = require('discord.js')
-const client = new Discord.Client()
 const { prefix } = require('./config.json')
-
+// ======================== INTENTS ==========================
+const { Intents } = Discord;
+const intents = new Intents();
+for (const intent of Object.keys (Intents.FLAGS)){
+    if(!intent.includes("GUILD")) continue;
+    intents.add(intent);
+}
+// ====================== CLIENT STUFF ========================
+const client = new Discord.Client({
+    intents: intents
+});
 // ====================== LISTENING TO CONSOLE ========================
 client.on('ready', () => {
     console.log(`${client.user.tag} is Online!`)
