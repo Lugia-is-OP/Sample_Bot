@@ -8,7 +8,7 @@ Follow These Steps -->
 ## How To Start the Bot
 > Click on Setup.bat File to install packages
 > Then click Run.bat File to Start your bot
-## How to Chnage Prefix
+## How to Change Prefix
 > For Defualt Prefix is `$`, to change it 
 > Go to **config.json** File and Change **$** with whatever prefix you want
 
